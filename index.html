@@ -5,6 +5,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/CSS/reset.css">
     <link rel="stylesheet" href="./resources/CSS/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -18,9 +19,55 @@
     </header>
 
     <main>
-      <div class="flex">
+      <div class="grid2x big">
         <img class="img-big" src="./resources/images/banner.jpg" alt="banner">
+        <article>
+          <h1>Learn something new everyday</h1>
+          <h2>It's time to discover a little more of a whole world of knowledge</h2>
+          <a class="a__button" href="#">Start here</a>
+        </article>
       </div>
+      <div class="grid2x big">
+        <article>
+          <img class="img-big" src="./resources/images/information-main.jpg" alt="man studying image">
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>Integer nec accumsan risus, vel rutrum nisl. Mauris nec nulla mauris. Sed ultrices, ligula vel bibendum tempus, dolor nisi lobortis.</p>
+        </article>
+
+        <div>
+          <!-- Article one -->
+          <div class="grid2x small">
+            <img src="./resources/images/information-orientation.jpg" alt="people walking image">
+            <div>
+              <h3>Orientation date</h3>
+              <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+
+          <!-- Article two -->
+          <div class="grid2x small">
+            <img src="./resources/images/information-campus.jpg" alt="people in open area image">
+            <div>
+              <h3>Our campus</h3>
+              <p>Find which campus is close by you</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+
+          <!-- Article three -->
+          <div class="grid2x small">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
+            <div class="background-color-grey">
+              <h3>Our guest lecture</h3>
+              <p>Join a key lecture with Oliver Sack about music in medical treatment</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </main>
   </body>
 </html>
