@@ -90,9 +90,26 @@ h3 {
   font-size: 1rem;
 }
 
+h4 {
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
 p {
   font-size: 0.8rem;
   line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#header-special {
+  text-align: center;
+  padding: 2rem 0 1rem;
 }
 
 .a__button {
@@ -115,6 +132,10 @@ p {
   display: flex;
 }
 
+#flex-special {
+  margin: 1rem;
+}
+
 .flex.column {
   flex-direction: column;
   justify-content: center;
@@ -124,15 +145,21 @@ p {
   flex-grow: 0;
   flex-shrink: 0;
   max-width: 100%;
-  height: auto;
 }
 
 .img-small {
   flex-grow: 0;
   flex-shrink: 0;
   max-width: 35%;
-  height: auto;
+  height: 100%;
   margin: 1rem;
+}
+
+.img-small-2 {
+  max-width: 35%;
+  height: 100%;
+  margin: 1rem;
+  float: left;
 }
 
 .max40 {
@@ -143,4 +170,10 @@ p {
 .max60 {
   max-width: 60%;
   margin: 2rem 1.5rem;
+}
+
+.info-courses {
+  background-color: white;
+  padding: 1rem;
+  margin: 0;
 }
