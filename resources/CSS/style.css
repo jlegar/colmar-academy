@@ -130,10 +130,13 @@ img {
 
 .flex {
   display: flex;
+  overflow: auto; /*avoid image overflow*/
 }
 
 #flex-special {
   margin: 1rem;
+  flex-basis: 33%;
+  height: 100%;
 }
 
 .flex.column {
@@ -148,18 +151,9 @@ img {
 }
 
 .img-small {
-  flex-grow: 0;
-  flex-shrink: 0;
   max-width: 35%;
   height: 100%;
   margin: 1rem;
-}
-
-.img-small-2 {
-  max-width: 35%;
-  height: 100%;
-  margin: 1rem;
-  float: left;
 }
 
 .max40 {
