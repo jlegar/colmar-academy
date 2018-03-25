@@ -8,7 +8,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <header>
+    <header id="desktop-header">
       <span><img src="./resources/images/ic-logo.svg" alt="Colmar Academy LOGO"><strong>COLMAR</strong>ACADEMY</span>
       <nav>
         <a href="#">On campus</a>
@@ -16,6 +16,14 @@
         <a href="#">For companies</a>
         <a href="#">Sign in</a>
       </nav>
+    </header>
+
+    <!-- ALTERNATIVE HEADER FOR MOBILE -->
+    <header id="mobile-header">
+      <a href="./index.html"> <img src="./resources/images/ic-logo.svg" alt="Colmar Academy LOGO"> </a>
+      <a href="#"> <img src="./resources/images/ic-on-campus.svg" alt="On Campus menu item"> </a>
+      <a href="#"> <img src="./resources/images/ic-online.svg" alt="Online menu item"> </a>
+      <a href="#"> <img src="./resources/images/ic-login.svg" alt="Login menu item"> </a>
     </header>
 
     <main>
@@ -33,7 +41,7 @@
 
       <!-- SECTION TWO -->
       <div class="flex">
-        <div class="flex column max60">
+        <div class="flex column max60" id="section-two-main">
           <img class="img-big" src="./resources/images/information-main.jpg" alt="man studying image">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>Integer nec accumsan risus, vel rutrum nisl. Mauris nec nulla mauris. Sed ultrices, ligula vel bibendum tempus, dolor nisi lobortis.</p>
@@ -42,8 +50,9 @@
         <div class="flex column max40">
           <!-- Article one -->
           <div class="flex">
-            <img class="img-small" src="./resources/images/information-orientation.jpg" alt="people walking image">
-            <div>
+            <img id="img-desktop" class="img-small" src="./resources/images/information-orientation.jpg" alt="people walking image">
+            <img id="img-mobile" class="img-small" src="./resources/images/information-orientation-mobile.jpg" alt="people walking image">
+            <div id="article-mobile">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
               <a href="#">Read more</a>
@@ -52,8 +61,9 @@
 
           <!-- Article two -->
           <div class="flex">
-            <img class="img-small" src="./resources/images/information-campus.jpg" alt="people in open area image">
-            <div>
+            <img id="img-desktop" class="img-small" src="./resources/images/information-campus.jpg" alt="people in open area image">
+            <img id="img-mobile" class="img-small" src="./resources/images/information-campus-mobile.jpg" alt="people in open area image">
+            <div id="article-mobile">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
               <a href="#">Read more</a>
@@ -62,8 +72,9 @@
 
           <!-- Article three -->
           <div class="flex background-color-grey">
-            <img class="img-small" src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
-            <div>
+            <img id="img-desktop" class="img-small" src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
+            <img id="img-mobile" class="img-small" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man looking image">
+            <div id="article-mobile">
               <h3>Our guest lecture</h3>
               <p>Join a key lecture with Oliver Sack about music in medical treatment</p>
               <a href="#">Read more</a>
