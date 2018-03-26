@@ -52,7 +52,7 @@
           <div class="flex">
             <img id="img-desktop" class="img-small" src="./resources/images/information-orientation.jpg" alt="people walking image">
             <img id="img-mobile" class="img-small" src="./resources/images/information-orientation-mobile.jpg" alt="people walking image">
-            <div id="article-mobile">
+            <div>
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
               <a href="#">Read more</a>
@@ -63,7 +63,7 @@
           <div class="flex">
             <img id="img-desktop" class="img-small" src="./resources/images/information-campus.jpg" alt="people in open area image">
             <img id="img-mobile" class="img-small" src="./resources/images/information-campus-mobile.jpg" alt="people in open area image">
-            <div id="article-mobile">
+            <div>
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
               <a href="#">Read more</a>
@@ -74,7 +74,7 @@
           <div class="flex background-color-grey">
             <img id="img-desktop" class="img-small" src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
             <img id="img-mobile" class="img-small" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man looking image">
-            <div id="article-mobile">
+            <div>
               <h3>Our guest lecture</h3>
               <p>Join a key lecture with Oliver Sack about music in medical treatment</p>
               <a href="#">Read more</a>
@@ -84,8 +84,8 @@
 
       </div>
 
-      <!-- SECTION THREE -->
-      <div class="background-color-grey">
+      <!-- SECTION THREE DESKTOP VIEW-->
+      <div id="s3-desktop-view" class="background-color-grey">
         <h2 id="header-special">Start learning</h2>
 
         <div class="flex">
@@ -148,9 +148,22 @@
 
       </div>
 
+      <!-- SECTION THREE MOBILE VIEW-->
+      <div id="s3-mobile-view">
+        <h2 id="header-special">Start learning</h2>
+        <h3>Software engineering</h3>
+        <h3>Computer art</h3>
+        <h3>Design</h3>
+        <h3>Data</h3>
+        <h3>Business</h3>
+        <h3>Marketing</h3>
+      </div>
+
       <!-- SECTION FOUR -->
       <h2 id="header-special">Thesis exhibit</h2>
-      <div class="flex">
+
+      <!-- SECTION FOUR DESKTOP CONTENT -->
+      <div id="s4-desktop-view" class="flex">
         <div class="flex column max60">
           <video src="./resources/videos/thesis.mp4" controls>
             Thesis exhibit introduction video
@@ -182,6 +195,13 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- SECTION FOUR MOBILE CONTENT -->
+      <div id="s4-mobile-view" class="flex">
+        <video src="./resources/videos/thesis.mp4" controls>
+          Thesis exhibit introduction video
+        </video>
       </div>
 
     </main>
