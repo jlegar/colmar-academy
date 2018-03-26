@@ -28,31 +28,31 @@
 
     <main>
       <!-- SECTION ONE -->
-      <div class="flex background-color-grey">
-        <div class="max60">
-          <img class="img-big" src="./resources/images/banner.jpg" alt="banner">
+      <section class="grid-section background-color-grey">
+        <div>
+          <img src="./resources/images/banner.jpg" alt="banner">
         </div>
-        <div class="flex column max40">
+        <div class="info-box">
           <h1>Learn something new everyday</h1>
           <h2>It's time to discover a little more of a whole world of knowledge</h2>
           <a class="a__button" href="#">Start here</a>
         </div>
-      </div>
+      </section>
 
       <!-- SECTION TWO -->
-      <div class="flex">
-        <div class="flex column max60" id="section-two-main">
-          <img class="img-big" src="./resources/images/information-main.jpg" alt="man studying image">
+      <section class="grid-section">
+        <div id="s2-main">
+          <img src="./resources/images/information-main.jpg" alt="man studying image">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>Integer nec accumsan risus, vel rutrum nisl. Mauris nec nulla mauris. Sed ultrices, ligula vel bibendum tempus, dolor nisi lobortis.</p>
         </div>
 
-        <div class="flex column max40">
+        <div>
           <!-- Article one -->
-          <div class="flex">
-            <img id="img-desktop" class="img-small" src="./resources/images/information-orientation.jpg" alt="people walking image">
-            <img id="img-mobile" class="img-small" src="./resources/images/information-orientation-mobile.jpg" alt="people walking image">
-            <div>
+          <div class="grid-article">
+            <img id="img-desktop" src="./resources/images/information-orientation.jpg" alt="people walking image">
+            <img id="img-mobile" src="./resources/images/information-orientation-mobile.jpg" alt="people walking image">
+            <div class="info-box">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
               <a href="#">Read more</a>
@@ -60,10 +60,10 @@
           </div>
 
           <!-- Article two -->
-          <div class="flex">
-            <img id="img-desktop" class="img-small" src="./resources/images/information-campus.jpg" alt="people in open area image">
-            <img id="img-mobile" class="img-small" src="./resources/images/information-campus-mobile.jpg" alt="people in open area image">
-            <div>
+          <div class="grid-article">
+            <img id="img-desktop" src="./resources/images/information-campus.jpg" alt="people in open area image">
+            <img id="img-mobile" src="./resources/images/information-campus-mobile.jpg" alt="people in open area image">
+            <div class="info-box">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
               <a href="#">Read more</a>
@@ -71,85 +71,82 @@
           </div>
 
           <!-- Article three -->
-          <div class="flex background-color-grey">
-            <img id="img-desktop" class="img-small" src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
-            <img id="img-mobile" class="img-small" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man looking image">
-            <div>
+          <div class="grid-article background-color-grey">
+            <img id="img-desktop" src="./resources/images/information-guest-lecture.jpg" alt="old man looking image">
+            <img id="img-mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="old man looking image">
+            <div class="info-box">
               <h3>Our guest lecture</h3>
               <p>Join a key lecture with Oliver Sack about music in medical treatment</p>
               <a href="#">Read more</a>
             </div>
           </div>
         </div>
-
-      </div>
+      </section>
 
       <!-- SECTION THREE DESKTOP VIEW-->
-      <div id="s3-desktop-view" class="background-color-grey">
+      <section id="s3-desktop-view" class="background-color-lightgrey">
         <h2 id="header-special">Start learning</h2>
 
-        <div class="flex">
-          <div class="flex column" id="flex-special">
+        <div class="grid-section-big">
+          <div>
             <img src="./resources/images/course-software.jpg" alt="course software image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Software engineering</h3>
               <h4>COURSES</h4>
               <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
           </div>
 
-          <div class="flex column" id="flex-special">
+          <div>
             <img src="./resources/images/course-computer-art.jpg" alt="course computer art image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Computer art</h3>
               <h4>COURSES</h4>
               <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
             </div>
           </div>
 
-          <div class="flex column" id="flex-special">
+          <div>
             <img src="./resources/images/course-design.jpg" alt="course design image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Design</h3>
               <h4>COURSES</h4>
               <p>User Experience Design, User Research, Visual Design</p>
             </div>
           </div>
-        </div>
 
-        <div class="flex">
-          <div class="flex column" id="flex-special">
+          <div>
             <img src="./resources/images/course-data.jpg" alt="course data image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Data</h3>
               <h4>COURSES</h4>
               <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
           </div>
 
-          <div class="flex column" id="flex-special">
+          <div>
             <img src="./resources/images/course-business.jpg" alt="course business image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Business</h3>
               <h4>COURSES</h4>
               <p>Product Development, Business Development, Startup</p>
             </div>
           </div>
 
-          <div class="flex column" id="flex-special">
+          <div>
             <img src="./resources/images/course-marketing.jpg" alt="course marketing image">
-            <div class="info-courses">
+            <div class="info-box background-color-white">
               <h3>Marketing</h3>
               <h4>COURSES</h4>
               <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
           </div>
-        </div>
 
-      </div>
+        </div>
+      </section>
 
       <!-- SECTION THREE MOBILE VIEW-->
-      <div id="s3-mobile-view">
+      <section id="s3-mobile-view">
         <h2 id="header-special">Start learning</h2>
         <h3>Software engineering</h3>
         <h3>Computer art</h3>
@@ -157,53 +154,56 @@
         <h3>Data</h3>
         <h3>Business</h3>
         <h3>Marketing</h3>
-      </div>
+      </section>
 
       <!-- SECTION FOUR -->
-      <h2 id="header-special">Thesis exhibit</h2>
+      <section>
+        <h2 id="header-special">Thesis exhibit</h2>
+        <!-- DESKTOP CONTENT -->
+        <div id="s4-desktop-view" class="grid-section">
+          <div>
+            <video src="./resources/videos/thesis.mp4" controls>
+              Thesis exhibit introduction video
+            </video>
+            <div class="info-box">
+              <h3>Reimaging urban</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla, leo nec bibendum luctus, ex tellus mattis tortor, non ullamcorper arcu metus sit amet magna. Quisque odio nunc, mattis id.</p>
+            </div>
+          </div>
 
-      <!-- SECTION FOUR DESKTOP CONTENT -->
-      <div id="s4-desktop-view" class="flex">
-        <div class="flex column max60">
+          <div>
+            <!-- ARTICLE ONE -->
+            <div class="grid-article background-color-grey">
+              <img src="./resources/images/thesis-fisma.jpg" alt="thesis image">
+              <div class="info-box">
+                <h3>Fisma: Design and Prototype</h3>
+                <p>Designer showcase of new prototype product</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <!-- ARTICLE TWO -->
+            <div class="grid-article">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="thesis now and then image">
+              <div class="info-box">
+                <h3>Fisma: Design and Prototype</h3>
+                <p>Designer showcase of new prototype product</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- MOBILE CONTENT -->
+        <div id="s4-mobile-view">
           <video src="./resources/videos/thesis.mp4" controls>
             Thesis exhibit introduction video
           </video>
-          <div>
-            <h3>Reimaging urban</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla, leo nec bibendum luctus, ex tellus mattis tortor, non ullamcorper arcu metus sit amet magna. Quisque odio nunc, mattis id.</p>
-          </div>
         </div>
 
-        <!-- ARTICLE ONE -->
-        <div class="flex column max40">
-          <div class="flex background-color-grey">
-            <img class="img-small" src="./resources/images/thesis-fisma.jpg" alt="thesis image">
-            <div>
-              <h3>Fisma: Design and Prototype</h3>
-              <p>Designer showcase of new prototype product</p>
-              <a href="#">Read more</a>
-            </div>
-          </div>
-
-          <!-- ARTICLE TWO -->
-          <div class="flex">
-            <img class="img-small" src="./resources/images/thesis-now-and-then.jpg" alt="thesis now and then image">
-            <div class="flex column">
-              <h3>Fisma: Design and Prototype</h3>
-              <p>Designer showcase of new prototype product</p>
-              <a href="#">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SECTION FOUR MOBILE CONTENT -->
-      <div id="s4-mobile-view" class="flex">
-        <video src="./resources/videos/thesis.mp4" controls>
-          Thesis exhibit introduction video
-        </video>
-      </div>
-
+      </section>
     </main>
 
     <footer>
